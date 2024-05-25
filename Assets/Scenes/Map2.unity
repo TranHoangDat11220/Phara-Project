@@ -3144,6 +3144,9 @@ MonoBehaviour:
   playerShooting: {fileID: 31287028}
   shootingTime: 5
   remainingTime: 0
+  isInvincible: 0
+  invincibilityTimer: 0
+  maxInvincibilityTime: 15
 --- !u!61 &917915551
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6532,7 +6535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2110731036
 Transform:
   m_ObjectHideFlags: 0
@@ -6561,7 +6564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6611045bd509eb14d8ca5807c26e2ac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 30
+  timeRemaining: 2
   transitionAnim: {fileID: 1229549240}
 --- !u!1 &2122938306
 GameObject:

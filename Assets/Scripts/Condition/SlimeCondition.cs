@@ -9,10 +9,7 @@ public class SlimeCondition : OurMonoBehaviour
 
     void Update()
     {
-        if (slimeCount == 2)
-        {
-            LevelChanger.Instance.NextLevel();
-        }
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
